@@ -24,6 +24,18 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="About" id="9sY-Ac-6Fo"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OFj-wj-tOO"/>
+                                    <barButtonItem style="plain" id="J5b-LF-Tho">
+                                        <pageControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="ip6-nk-bw0">
+                                            <rect key="frame" x="73" y="9" width="177" height="26"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" systemColor="systemTealColor"/>
+                                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="pageControlTapped:" destination="Ixm-II-kj8" eventType="valueChanged" id="AsZ-Rz-la0"/>
+                                            </connections>
+                                        </pageControl>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="4nF-qW-UlF"/>
                                     <barButtonItem image="list.bullet" catalog="system" id="yjW-W4-Uic">
                                         <connections>
@@ -89,6 +101,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="s9A-Ja-dwH" id="sSc-cS-UUJ"/>
                         <outlet property="imageView" destination="O0V-OR-2bk" id="hvb-hu-mWW"/>
+                        <outlet property="pageControl" destination="ip6-nk-bw0" id="XGP-08-UBU"/>
                         <outlet property="placeLabel" destination="Elo-Fe-R6B" id="dzN-nr-3AH"/>
                         <outlet property="summaryLabel" destination="cdm-p5-61m" id="lmj-f8-mq1"/>
                         <outlet property="temperatureLabel" destination="sui-kS-0FS" id="6Kg-mb-G0X"/>
