@@ -13,6 +13,7 @@
 		E44AD1B127CBF8D000267197 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AD1B027CBF8D000267197 /* DailyTableViewCell.swift */; };
 		E44AD1B327CC7A6300267197 /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AD1B227CC7A6300267197 /* HourlyCollectionViewCell.swift */; };
 		E44AD1B527CD1A6B00267197 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AD1B427CD1A6B00267197 /* UIViewController+alert.swift */; };
+		E44AD1B727D553DB00267197 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AD1B627D553DB00267197 /* AboutViewController.swift */; };
 		E4620D562797CE4900EF1DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4620D552797CE4900EF1DB3 /* AppDelegate.swift */; };
 		E4620D582797CE4900EF1DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4620D572797CE4900EF1DB3 /* SceneDelegate.swift */; };
 		E4620D5A2797CE4900EF1DB3 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4620D592797CE4900EF1DB3 /* LocationListViewController.swift */; };
@@ -35,6 +36,7 @@
 		E44AD1B027CBF8D000267197 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		E44AD1B227CC7A6300267197 /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
 		E44AD1B427CD1A6B00267197 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		E44AD1B627D553DB00267197 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E4620D522797CE4900EF1DB3 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4620D552797CE4900EF1DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4620D572797CE4900EF1DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				E40C57EE27C9EC6600FDAEAE /* PageViewController.swift */,
 				E4620D572797CE4900EF1DB3 /* SceneDelegate.swift */,
 				E4620D592797CE4900EF1DB3 /* LocationListViewController.swift */,
+				E44AD1B627D553DB00267197 /* AboutViewController.swift */,
 				E4C951B227C30BE0003D94DE /* LocationDetailViewController.swift */,
 				E44AD1B027CBF8D000267197 /* DailyTableViewCell.swift */,
 				E44AD1B227CC7A6300267197 /* HourlyCollectionViewCell.swift */,
@@ -246,6 +249,7 @@
 				E4620D702797E27A00EF1DB3 /* WeatherLocations.swift in Sources */,
 				E44AD1B127CBF8D000267197 /* DailyTableViewCell.swift in Sources */,
 				E40C57EF27C9EC6600FDAEAE /* PageViewController.swift in Sources */,
+				E44AD1B727D553DB00267197 /* AboutViewController.swift in Sources */,
 				E4620D562797CE4900EF1DB3 /* AppDelegate.swift in Sources */,
 				E4620D582797CE4900EF1DB3 /* SceneDelegate.swift in Sources */,
 				E44AD1B327CC7A6300267197 /* HourlyCollectionViewCell.swift in Sources */,
